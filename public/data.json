@@ -1,0 +1,72 @@
+[
+    {
+    "id" : "1",
+    "img": "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Honda CBR",
+    "price": "550000"
+    },
+    {
+    "id" : "2",
+    "img": "https://images.unsplash.com/photo-1558981033-0f0309284409?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Harley Davidson",
+    "price": "1090000"    
+    },
+    {
+    "id" : "3",
+    "img": "https://images.unsplash.com/photo-1547549082-6bc09f2049ae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "name": "Yamaha FZ3",
+    "price": "450000"
+    },
+    {
+    "id" : "4",
+    "img": "https://images.unsplash.com/photo-1611599616427-f647d29e01ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Black Ducati",
+    "price": "600000"    
+    },
+    {
+    "id" : "5",
+    "img": "https://images.unsplash.com/photo-1473147437169-91ac8cebc017?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1166&q=80",
+    "name": "BMW Indo",
+    "price": "510000"
+    },
+    {
+    "id" : "6",
+    "img": "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "KTM Super",
+    "price": "550000"    
+    },
+    {
+    "id" : "7",
+    "img": "https://images.unsplash.com/photo-1547054728-fcb8828cc832?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Ducati White",
+    "price": "900000"
+    },
+    {
+    "id" : "8",
+    "img": "https://images.unsplash.com/photo-1560243357-cec6fd81e314?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Royal Enfield",
+    "price": "550000"    
+    },
+    {
+    "id" : "9",
+    "img": "https://images.unsplash.com/photo-1471466054146-e71bcc0d2bb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Street Motion",
+    "price": "450000"},
+    {
+    "id" : "10",
+    "img": "https://images.unsplash.com/photo-1485908518669-ad17eac8cb57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Cafe Racer",
+    "price": "410000"    
+    },
+    {
+    "id" : "11",
+    "img": "https://images.unsplash.com/photo-1481575184241-4754ea78a1bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Davidson Crumbler",
+    "price": "950000"},
+    {
+    "id" : "12",
+    "img": "https://images.unsplash.com/photo-1558981403-c5f9899a28bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "name": "Harley Metro",
+    "price": "990000"    
+    }
+]
