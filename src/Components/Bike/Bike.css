@@ -1,10 +1,32 @@
-.bike{
+.bike {
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
+    padding-bottom: 15px;
 }
 .bike img {
     width: 100%;
     border-radius: 8px 8px 0 0;
+}
+.bike-name {
+    margin-bottom: 0;
+}
+.bike-price {
+    margin-top: 0;
+}
+.cart-btn {
+    background-color: #282a35;
+    color: #04aa6b;
+    border: none;
+    padding: 0 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+}
+.cart-text {
+    margin-right: 6px;
+    text-align: center;
 }

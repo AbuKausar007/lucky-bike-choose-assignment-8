@@ -6,20 +6,31 @@ import './Product.css';
 
 const Product = () => {
     const [bikes, setBikes] = useState([]);
+    const [cart, setCart] =useState([]);
     useEffect(()=>{
     fetch('data.json')
     .then( res => res.json())
     .then( data =>setBikes(data))
   },[])
+
+    const addToCart = (bike) => {
+        console.log(bike);
+        const newCart = [...cart,bike];
+        setCart(newCart);
+    }
     return (
         <div className='product-container'>
             <div className='bike-container'>
                {
-                   bikes.map( bike => <Bike key={bike.id} bike={bike}></Bike>)
+                   bikes.map( bike => <Bike 
+                    key={bike.id} 
+                    bike={bike}
+                    addToCart={addToCart}
+                    ></Bike>)
                }
             </div>
             <div className='cart-container'>
-                <Cart></Cart>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );
