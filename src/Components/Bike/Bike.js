@@ -6,7 +6,7 @@ import './Bike.css';
 const Bike = (props) => {
     // console.log(props);
     const {addToCart} = props;
-    const{id,img,name,price} = props.bike;
+    const{img,name,price} = props.bike;
     return (
         <div className='bike'>
             <img src={img} alt="" />
