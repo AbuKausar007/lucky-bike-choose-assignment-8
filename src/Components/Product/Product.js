@@ -15,8 +15,14 @@ const Product = () => {
 
     const addToCart = (bike) => {
         console.log(bike);
-        const newCart = [...cart,bike];
-        setCart(newCart);
+        if( cart.length < 4){
+            const newCart = [...cart,bike];
+            setCart(newCart);
+        }
+        else{
+            alert("Sorry, You Can't Add More Than Four Bikes!");
+        }
+        
     }
     return (
         <div className='product-container'>
