@@ -13,7 +13,7 @@ const Cart = (props) => {
                 cart.map( item => <div className='item'><h3 key={item.id}> {item.name}</h3></div>)
             }
             <button>
-                <p >Choose One For Me</p>
+                <p>Choose 1 For Me</p>
             </button>
             <br></br>
             <button>
