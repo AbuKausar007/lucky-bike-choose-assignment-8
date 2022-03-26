@@ -1,5 +1,8 @@
 .cart {
     color: #04aa6b;
+    position: sticky;
+    top: 0;
+    padding: 30px 0;
 }
 .cart-text {
     font-weight: 600;
