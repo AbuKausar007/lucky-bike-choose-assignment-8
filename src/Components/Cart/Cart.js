@@ -8,6 +8,10 @@ const Cart = (props) => {
         <div className='cart'>
             <h2>Your Cart Summary.</h2>
             <h2>Added items: {cart.length}</h2>
+            
+            {
+                cart.map( item => <div className='item'><h3> {item.name}</h3></div>)
+            }
         </div>
     );
 };
