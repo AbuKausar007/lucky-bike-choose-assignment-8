@@ -12,11 +12,11 @@ const Cart = (props) => {
             {
                 cart.map( item => <div className='item'><h3 key={item.id}> {item.name}</h3></div>)
             }
-            <button>
-                <p>Choose 1 For Me</p>
+            <button className='choose-one'>
+                <p>Choose One For Me</p>
             </button>
             <br></br>
-            <button>
+            <button className='choose-again'>
                 <p>Choose Again</p>
             </button>
         </div>

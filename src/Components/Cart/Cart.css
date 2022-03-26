@@ -19,3 +19,17 @@
 .item h3 {
     padding: 5px 10px;
 }
+.choose-one,
+.choose-again {
+    background-color: #04aa6b;
+    color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    width: 75%;
+    padding: 0 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
